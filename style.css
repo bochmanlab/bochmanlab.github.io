@@ -111,6 +111,10 @@ nav.primary a:hover, nav.primary a[aria-current="page"] {
 
 .nav-toggle { display: none; }
 
+@media (max-width: 1040px) {
+  nav.primary ul { gap: 0; }
+  nav.primary a { padding: 8px 9px; }
+}
 @media (max-width: 720px) {
   nav.primary ul { gap: 0; }
   nav.primary a { padding: 8px 8px; font-size: 0.88rem; }
